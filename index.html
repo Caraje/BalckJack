@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BlackJack </title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <header class="contenedor titulo">
+        <h1>BlackJack</h1>
+    </header>
+
+    <div class="contenedor ">
+        <div class="menu">
+            <button id="btn_nuevo" class="btn nueva">Nueva Partida</button>
+            <button id="btn_pedir" class="btn pedir">Pedir carta</button>
+            <button id="btn_detener" class="btn parar">Detener</button>
+        </div>
+        <div class="mesa_juego">
+            <div class="mesa_juego_jugador">
+    
+                <div class="jugador">
+                    <h2 id="nombre_jugador" >Jugador</h2>
+                    <h2><span id="puntos_jugador" >0</span> puntos</h2>
+                </div>
+                <div id="jugador" class="zona_juego">
+                    <!-- <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt=""> -->
+                </div>
+            </div>
+
+
+            <div class="mesa_juego_jugador">
+    
+                <div class="jugador">
+                    <h2><span id="puntos_cpu" >0</span> puntos</h2>
+                    <h2 id="nombre_cpu" >CPU</h2>
+                </div>
+                <div id="cpu" class="zona_juego">
+                    <!-- <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt="">
+                    <img class="cartas" src="assets/img/2H.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="contenedor pie_pagina">
+    <p>Creado por <a href="https://www.carlosajenjo.com">Carlos Ajenjo</a> - Febrero 2021 - </p>    
+    </footer>
+
+
+
+
+
+
+
+    
+    
+    
+    <script src="/underscore.js"></script>
+    <script src="/main.js"></script>
+    <script>
+        miModulo();
+    </script>
+</body>
+</html>
